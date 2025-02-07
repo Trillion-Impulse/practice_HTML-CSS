@@ -74,3 +74,36 @@
 - 자식 태그: `<i>`, `</i>`
 - 자식 태그는 부모 태그를 벗어나면 안됨
 
+## 빈 태그 Empty Tag
+
+- 빈 태그 (Empty Tag)는 내용(Content)이 없는 태그를 의미
+- 시작 태그와 종료 태그가 하나로 합쳐져 있는 형태
+- 그 자체로 속성만을 갖거나 특정 기능을 수행
+- HTML5에서는 빈 태그를 종료 태그 없이 작성
+    - 예를 들어 `<br>`
+- 주요 빈 태그들
+    - `<br>`: 줄 바꿈
+    ```
+    <p>첫 번째 줄<br>두 번째 줄</p>
+    ```
+    - `<img>`: 이미지 파일을 웹 페이지에 삽입
+        - 속성: src(이미지 경로), alt(대체 텍스트) 등
+    ```
+    <img src="image.jpg" alt="Example Image">
+    ```
+    - `<hr>`: 수평선 삽입, 구분선
+    ```
+    <hr>
+    ```
+    - `<input>`: 사용자가 데이터를 입력할 수 있는 폼 요소 생성
+    ```
+    <input type="text" placeholder="Enter your name">
+    ```
+    - `<meta>`: 문서의 메타 정보를 제공, 보통 `<head>`안에 사용
+    ```
+    <meta charset="UTF-8">
+    ```
+    - `<link>`: 외부 리소스(ex: 스타일시트 파일)와 연결을 설정
+    ```
+    <link rel="stylesheet" href="styles.css">
+    ```
