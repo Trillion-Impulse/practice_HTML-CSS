@@ -10,4 +10,5 @@
     5. 빈 태그 Empty Tag
     6. 공백
     7. 주석
+    8. HTML의 기본 구조
 2. how_to_use_CSS
