@@ -40,3 +40,12 @@
         2. HTML 속성과 CSS 속성
         3. 주석
         4. 스타일 정의 방법
+    3. 선택자
+        1. 요소 선택자 (Element Selector)
+        2. 그룹화 선택자 (Grouping Selector)
+        3. 전체 선택자 (Universal Selector)
+        4. 클래스 선택자 (Class Selector)
+        5. 아이디 선택자 (Id Selector)
+        6. 속성 선택자 (Attribute Selector)
+        7. 부분 속성값으로 선택
+        8. 선택자의 조합
