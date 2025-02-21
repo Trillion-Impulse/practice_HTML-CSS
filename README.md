@@ -212,7 +212,7 @@ h1, h2, h3 {
     background-color: yellow;
 }
 ```
-### 속성 선택자 ()
+### 속성 선택자 (Attribute Selector)
 
 - HTML 요소의 속성을 기준으로 스타일을 적용할 수 있는 CSS 선택자
 - 특정 속성이나 속성 값이 일치하는 요소를 선택 가능
