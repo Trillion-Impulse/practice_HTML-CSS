@@ -1,1 +1,35 @@
-h1{color: green;}
+h2 {
+    color: olive;
+}
+h3, h4 {
+    color: goldenrod;
+}
+/* * {
+    color: hotpink;
+} */
+.first
+{
+    font-size: 24px;
+    color: hotpink;
+}
+#h1ID {
+    color: lawngreen;
+}
+.space {
+    font-size: 12px;
+}
+h1[class="space"][id="nbsp1"] {
+    color: chocolate;
+}
+h1[id^="t"][id$="3"] {
+    color: blue;
+}
+h1[id*="pace"] {
+    color: violet;
+}
+h1.space2 {
+    color: mediumaquamarine;
+}
+h1.space3#space33 {
+    color: wheat;
+}
