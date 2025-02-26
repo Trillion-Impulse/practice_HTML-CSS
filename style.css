@@ -33,7 +33,7 @@ h1.space2 {
 h1.space3#space33 {
     color: wheat;
 } */
-pre h1 {
+/* pre h1 {
     color: aqua;
 }
 body > h3 {
@@ -47,4 +47,34 @@ h6 + p {
 }
 html > head + body h3 ~ h4 {
     color: fuchsia;
+} */
+pre:hover {
+    color: greenyellow;
+}
+h1:first-child {
+    color: blue;
+}
+body>div {
+    color: yellow;
+}
+h3::before {
+    content: "*";
+    color: yellow;
+}
+h4::first-letter {
+    font-size: 3em;
+    color: plum;
+}
+pre::first-line {
+    color: red;
+}
+body p {
+    color: green;
+}
+p {
+    color: goldenrod !important;
+}
+* {color: gray;}
+h1#hellocss {
+    color: olivedrab;
 }
