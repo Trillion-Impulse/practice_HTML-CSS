@@ -395,3 +395,24 @@ html > body div + p {...}
         color: red !important;
     }
     ```
+
+### 상속
+
+- Inheritance
+- 부모 요소가 자식 요소에게 스타일 속성을 자동으로 전달하는 개념
+- 텍스트 관련 속성(`color`,`font-family`,`font-size`등)은 상속
+- 레이아웃 관련 속성(`margin`,`padding`,`border`등)은 상속되지 않음
+- `inherit`: 특정 속성이 부모 요소에서 상속되도록 강제로 설정
+- `initial`: 해당 속성을 기본값(브라우저의 기본 스타일)으로 초기화
+- `unset`: 만약 상속되는 속성이라면 부모로부터 상속하고, 그렇지 않으면 기본값으로 설정
+```
+div {
+    color: red;
+}
+p {
+    color: inherit;
+}
+span {
+    color: unset;
+}
+```
