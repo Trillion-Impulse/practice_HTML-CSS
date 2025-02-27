@@ -48,7 +48,7 @@ h6 + p {
 html > head + body h3 ~ h4 {
     color: fuchsia;
 } */
-pre:hover {
+/* pre:hover {
     color: greenyellow;
 }
 h1:first-child {
@@ -77,4 +77,22 @@ p {
 * {color: gray;}
 h1#hellocss {
     color: olivedrab;
-}
+} */
+ * {
+    color: gray;
+ }
+ h1 {
+    color: black;
+ }
+ /* [id] {
+    color: orange;
+ } */
+ .first {
+    color: yellow;
+ }
+ .firsthello {
+    color: green !important;
+ }
+ [id] {
+    color: orange;
+ }
