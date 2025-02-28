@@ -426,3 +426,7 @@ span {
     2. 구체성 점수
     3. 선언 순서
         - 동일한 구체성을 가진 규칙이 여러개 있을 경우, 나중에 선언된 규칙이 우선 적용
+
+### 선택자 레퍼런스
+
+- [https://www.w3schools.com](https://www.w3schools.com/cssref/css_selectors.php)
