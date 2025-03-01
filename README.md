@@ -430,3 +430,29 @@ span {
 ### 선택자 레퍼런스
 
 - [https://www.w3schools.com](https://www.w3schools.com/cssref/css_selectors.php)
+
+
+## 속성
+
+- HTML 요소의 스타일을 정의
+- `속성명: 값` 형태로 작성
+
+### CSS reference를 통해 확인 가능한 사항
+
+- 속성명: HTML 요소에 적용할 스타일을 지정하는 속성을 나타내는 이름
+- 속성값: 해당 속성이 어떤 스타일을 적용할지 결정하는 값
+    - Initial: 초기값, 속성의 기본값
+    - Inherit: 부모 요소의 해당 속성 값을 적용 (상속 가능할 요소일 경우)
+- 지원 범위
+    - 해당 속성이 정의에 맞게 동작 가능한 CSS 버전, 브라우저별 버전
+    - 어떤 브라우저의 어떤 버전이냐에 따라 같은 값이어도 다르게 렌더링 됨
+- 예제
+    - 문법과 속성값을 바탕으로 실제로 속성이 동작하는 예제 코드
+- 참고사항
+    - 해당 속성에 대한 특이사항이나 버그
+
+### CSS reference
+
+- [https://www.w3.org](https://www.w3.org)
+- [https://www.w3schools.com](https://www.w3schools.com)
+- [https://developer.mozilla.org](https://developer.mozilla.org)
