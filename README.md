@@ -56,3 +56,5 @@
         13. 캐스케이딩
         14. 선택자 레퍼런스
     4. 속성
+        1. CSS reference를 통해 확인 가능한 사항
+        2. CSS reference
