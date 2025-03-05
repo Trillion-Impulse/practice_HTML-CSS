@@ -62,3 +62,4 @@
         4. 색상
         5. background
         6. boxmodel
+        7. border
