@@ -8,7 +8,11 @@
 - 웹 페이지의 스타일과 레이아웃을 정의하는 언어
 - HTML이 정의한 페이지의 구조에 색상, 글꼴, 간격, 배치 등 시각적 요소를 추가하여 웹 페이지의 디자인을 담당
 
+***
+
 ## Syntax
+
+---
 
 ### 기본 구조
 ```
@@ -50,6 +54,8 @@ h1 { color: yellow; font-size: 2em; }
     - 선택자와 선언부 사이, 선언과 선언 사이는 앞뒤로 개행 가능
     - 속성명과 속성값 사이에는 개행 불가
 
+---
+
 ### HTML 속성과 CSS 속성
 
 |구분|HTML 속성|CSS 속성|
@@ -60,6 +66,7 @@ h1 { color: yellow; font-size: 2em; }
 - HTML 속성은 Attribute
 - CSS 속성은 Property
 
+---
 
 ### 주석
 
@@ -67,6 +74,8 @@ h1 { color: yellow; font-size: 2em; }
 /* 주석 */
 ```
 - `/*`로 시작, `*/`로 끝남
+
+---
 
 ### 스타일 정의 방법
 
@@ -155,9 +164,13 @@ h1 { color: yellow; font-size: 2em; }
 - `@import`는 CSS 파일을 불러오는 요청을 추가로 발생시켜 페이지 로딩 속도에 영향을 줄 수 있음
 - 성능의 이유로 `@import`보다는 `<link>`태그를 선호
 
+***
+
 ## 선택자 (Selector)
 
 - 스타일을 적용할 HTML 요소를 선택하는 역할
+
+---
 
 ### 요소 선택자 (Element Selector)
 
@@ -170,6 +183,8 @@ p {
 }
 ```
 
+---
+
 ### 그룹화 선택자 (Grouping Selector)
 
 - 여러 선택자를 한 번에 묶어서 스타일을 적용 가능
@@ -180,6 +195,8 @@ h1, h2, h3 {
 }
 ```
 
+---
+
 ### 전체 선택자 (Universal Selector)
 
 - 모든 HTML 요소를 선택하는 선택자
@@ -189,6 +206,8 @@ h1, h2, h3 {
     color: red;
 }
 ```
+
+---
 
 ### 클래스 선택자 (Class Selector)
 
@@ -202,6 +221,8 @@ h1, h2, h3 {
 }
 ```
 
+---
+
 ### 아이디 선택자 (Id Selector)
 
 - 특정 ID를 가진 요소에 스타일을 적용
@@ -212,6 +233,9 @@ h1, h2, h3 {
     background-color: yellow;
 }
 ```
+
+---
+
 ### 속성 선택자 (Attribute Selector)
 
 - HTML 요소의 속성을 기준으로 스타일을 적용할 수 있는 CSS 선택자
@@ -224,12 +248,16 @@ p[class][id] {
 }
 ```
 
+---
+
 ### 부분 속성값으로 선택
 
 - `[class~="bar"]`: class 속성의 값이 공백으로 구분한 "bar" 단어가 포함되는 요소 선택
 - `[class^="bar"]`: class 속성의 값이 "bar"로 시작하는 요소 선택
 - `[class$="bar"]`: class 속성의 값이 "bar"로 끝나는 요소 선택
 - `[class*="bar"]`: class 속성의 값에 "bar"문자가 포함되는 요소 선택
+
+---
 
 ### 선택자의 조합
 
@@ -239,6 +267,8 @@ p[class][id] {
     - `.foo.bar{...}`
 - 아이디와 클래스의 조합
     - `#foo.bar{...}`
+
+---
 
 ### 문서 구조 관련 선택자
 
@@ -332,6 +362,8 @@ html > body div + p {...}
 ```
 - `<html>`의 자식인 `<body>`의 자손인 `<div>`와 인접한 형제 선택자 `<p>`를 선택
 
+---
+
 ### 가상 선택자
 
 - Pseudo Selector
@@ -371,6 +403,8 @@ html > body div + p {...}
 - `::first-line`: 요소의 첫 번째 줄에 있는 텍스트
 - `::first-letter`: 블록 레벨 요소의 첫 번째 문자
 
+---
+
 ### 구체성
 
 - Specificity
@@ -396,6 +430,8 @@ html > body div + p {...}
     }
     ```
 
+---
+
 ### 상속
 
 - Inheritance
@@ -417,6 +453,8 @@ span {
 }
 ```
 
+---
+
 ### 캐스케이딩
 
 - Cascading
@@ -427,15 +465,20 @@ span {
     3. 선언 순서
         - 동일한 구체성을 가진 규칙이 여러개 있을 경우, 나중에 선언된 규칙이 우선 적용
 
+---
+
 ### 선택자 레퍼런스
 
 - [https://www.w3schools.com](https://www.w3schools.com/cssref/css_selectors.php)
 
+***
 
 ## 속성
 
 - HTML 요소의 스타일을 정의
 - `속성명: 값` 형태로 작성
+
+---
 
 ### CSS reference를 통해 확인 가능한 사항
 
@@ -451,11 +494,15 @@ span {
 - 참고사항
     - 해당 속성에 대한 특이사항이나 버그
 
+---
+
 ### CSS reference
 
 - [https://www.w3.org](https://www.w3.org)
 - [https://www.w3schools.com](https://www.w3schools.com)
 - [https://developer.mozilla.org](https://developer.mozilla.org)
+
+---
 
 ### 단위
 
@@ -509,6 +556,8 @@ span {
     - viewport(브라우저 창)의 너비를 기준으로 비율을 설정
     - 1vw = viewport width의 1%
 
+---
+
 ### 색상
 
 - 속성명: `color`
@@ -556,6 +605,8 @@ span {
 - HSLA는 HSL에 알파(Alpha)값을 추가한 것
 - 알파(Alpha)값은 투명도(Opacity)를 나타냄
 - 예: 반투명한 파란색 `color: hsla(240, 100%, 50%, 0.5)`
+
+---
 
 ### background
 
