@@ -716,3 +716,57 @@ span {
     - 요소와 다른 요소 사이의 간격
 
 ---
+
+### border
+
+- 요소의 테두리를 설정
+- 네 가지 방향(위 top, 오른쪽 right, 아래 bottom, 왼쪽 left)에 각각 다르게 설정 가능
+
+#### border-width
+
+- 테두리의 두께를 설정
+- 기본값: medium
+- 속성값
+    - 단위: px, em, rem, % 등
+    - 키워드
+        - thin: 가장 얇은 테두리, 일반적으로 1px
+        - medium: 기본적인 테두리 두께, 일반적으로 3px
+        - thick: 두꺼운 테두리, 일반적으로 5px
+- 축약: `border-width: [top] [right] [bottom] [left]`
+- 예: `border-width: 2px`, `border-top-width: thin`
+
+#### border-style
+
+- 테두리의 모양을 설정
+- 기본값: none
+- 속성값
+    - none: 테두리 없음
+    - solid: 실선
+    - dashed: 점선
+    - dotted: 점선
+    - double: 이중선
+    - groove: 홈이 파인 선 (3D 효과)
+    - ridge: 솟아있는 선 (3D 효과)
+    - inset: 안쪽 그림자 효과 (3D 효과)
+    - outset: 바깥쪽 그림자 효과 (3D 효과)
+    - hidden: 테두리가 숨겨짐 (특히 테이블에서 사용)
+- 축약: `border-style: [top] [right] [bottom] [left]`
+
+#### border-color
+
+- 테두리의 색상을 설정
+- 기본값: currentcolor
+- 속성값
+    - 색상 이름, hex, rgb, rgba 등 CSS에서 사용되는 일반적인 색상 값
+- 축약: `border-color: [top] [right] [bottom] [left]`
+
+#### 축약
+
+- border 속성들을 하나의 줄에 결합하여 사용 가능
+- `border: [-width] [-style] [-color]`
+- 예: `border: 2px solid, red`
+    - 두께 2px, 실선, 빨간색 테두리
+
+#### 이외의 border속성들도 존재
+
+---
