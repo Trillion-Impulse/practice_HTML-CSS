@@ -612,3 +612,89 @@ span {
 
 - 요소의 배경을 설정하는 데 사용
 - 여러 개의 세부 속성을 결합하여 배경을 지정
+
+#### background-color
+
+- 배경색을 설정
+- 기본값: transparent
+- 예: `background-color: blue`
+
+#### background-image
+
+- 배경으로 이미지를 설정
+- url의 경로는 절대 경로, 상대 경로 모두 사용 가능
+- 예: `background-image: url('image.jpg')`
+
+#### background-repeat
+
+- 배경 이미지의 반복 여부와 방향을 설정
+- 기본값: repeat
+- 속성값
+    - repeat: 기본값, x,y축 방향으로 모두 반복
+    - repeat-x: x축 방향으로 반복
+    - repeat-y: y축 방향으로 반복
+    - no-repeat: 이미지를 반복하지 않음
+
+#### background-position
+
+- 배경 이미지의 위치를 설정
+- 기본값: 0% 0% (왼쪽 상단)
+- x,y축으로부터의 위치를 지정
+- 한쪽만 지정된다면 나머지는 중앙 값(center)으로 적용
+- 속성값
+    - %: 기준으로부터 %만큼 상대적으로 떨어진 위치 설정
+    - px: 기준으로부터 px만큼 절대적으로 떨어진 위치 설정
+    - 키워드
+        - x축: left, center, right
+        - y축: top, center, bottom
+
+#### background-attachment
+
+- 화면을 스크롤(scroll)할 때 배경 이미지의 움직임 여부 설정
+- 기본값: scroll
+- 속성값
+    - scroll: 기본값
+        - 배경 이미지는 요소 자체를 기준으로 고정
+        - 스크롤 시 배경도 함께 이동
+    - fixed
+        - 배경 이미지는 뷰포트를 기준으로 고정
+        - 스크롤 시 배경이 고정
+    - local
+        - 배경 이미지는 요소의 내용을 기준으로 고정
+        - 스크롤 시 내용과 함께 스크롤
+
+#### background-size
+
+- 배경 이미지의 크기를 설정
+- 기본값: auto
+- 속성값
+    - auto: 기본 값, 기본 크기, 이미지 크기 그대로
+    - cover: 요소를 완전히 덮도록 크기를 조정
+    - contain: 이미지가 요소 내부에 맞도록 크기를 조정
+    - 고정된 픽셀(px)값, 백분율도 지정 가능
+
+#### background-origin
+
+- 배경 이미지의 위치가 기준으로 삼을 영역을 설정
+- 기본값: padding-box
+- 속성값
+    - border-box: 경계 박스를 기준
+    - padding-box: 패딩 박스를 기준
+    - content-box: 콘텐츠 박스를 기준
+
+#### background-clip
+
+- 배경이 어느 영역에 그려질지 설정
+- 기본값: border-box
+- 속성값
+    - border-box: 경계 박스 내에 그려짐
+    - padding-box: 패딩 박스 내에 그려짐
+    - content-box: 콘텐츠 박스 내에 그려짐
+
+#### 축약
+
+- background 속성들을 하나의 줄에 결합하여 사용 가능
+- 예: `background: #f00 url('image.jpg') no-repeat center center fixed`
+    - 배경색: 빨간색, `image.jpg`사용, 반복 없음, 가운데 배치, 스크롤 시 배경 고정
+
+---
