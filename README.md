@@ -60,3 +60,4 @@
         2. CSS reference
         3. 단위
         4. 색상
+        5. background
