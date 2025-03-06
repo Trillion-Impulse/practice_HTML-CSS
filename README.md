@@ -770,3 +770,25 @@ span {
 #### 이외의 border속성들도 존재
 
 ---
+
+### padding
+
+- border와 content 사이의 여백
+- 네 가지 방향(위 top, 오른쪽 right, 아래 bottom, 왼쪽 left)에 각각 다르게 설정 가능
+- 기본값: 0
+- 속성값
+    - px, em 등: 고정값으로 지정
+    - %: 요소의 width에 상대적인 크기를 지정
+- padding-top: content 영역의 위쪽 여백을 지정
+- padding-right: content 영역의 오른쪽 여백을 지정
+- padding-bottom: content 영역의 아래쪽 여백을 지정
+- padding-left: content 영역의 왼쪽 여백을 지정
+- 축약: `padding: [-top] [-right] [-bottom] [-left]`
+    - 상하, 좌우 영역의 값이 같을 때 하나로 합쳐서 적용 가능
+    - 예
+        - padding: 10px; /* 상, 하, 좌, 우 모두 10px */
+        - padding: 10px 20px; /* 상/하: 10px, 좌/우: 20px */
+        - padding: 10px 20px 30px; /* 상: 10px, 좌/우: 20px, 하: 30px */
+        - padding: 10px 20px 30px 40px; /* 상: 10px, 우: 20px, 하: 30px, 좌: 40px */
+
+---
