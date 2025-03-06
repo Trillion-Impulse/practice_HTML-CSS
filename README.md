@@ -63,3 +63,4 @@
         5. background
         6. boxmodel
         7. border
+        8. padding
