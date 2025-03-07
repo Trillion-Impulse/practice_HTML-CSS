@@ -866,9 +866,12 @@ span {
     border: 10px solid black;
     }
     ```
+
     - 요소의 총 가로 크기는 160px
     - `content의 width 100px + padding 좌우(20px*2) + border 좌우(10px*2) = 160px`
+    
     <br>
+    
     ```
     <div class="parent">
     <div class="child">
@@ -886,9 +889,57 @@ span {
     border: 10px solid black;
     }
     ```
+
     - 요소의 총 가로 크기는 210px
     - `content의 width 150px + padding 좌우(20px*2) + border 좌우(10px*2) = 210px`
 - 부모가 인라인 레벨 요소일 때, 자식(블록 요소)이 width 값에 %를 가지면, 가장 가까운 블록 레벨인 조상의 width를 기준으로 계산
 - 만일 최상단까지 블록 레벨 요소가 없으면 body를 기준으로 계산
+
+---
+
+### height
+
+- 요소의 높이를 설정
+- height는 요소의 콘텐츠 영역에만 적용
+- 기본값: 0
+- 속성값
+    - auto: 브라우저에 의해 계산된 값이 적용, content 영역의 내용만큼 높이를 가짐
+    - px, em 등: 고정값으로 지정
+    - %: 부모 요소에 대한 상대적 높이를 설정
+        - 단, 부모 요소가 명시적으로 height 값이 있어야 함
+- height는 content 영역의 높이를 제어할 때 사용하는데, 이때 auto가 아닌 특정한 값을 지정하여 사용하면, 
+    width 속성과 마찬가지로 boxmodel 영역에서 margin 영역을 제외한 모든 영역에 대해 영향을 받음
+- 예
+    ```
+    <div class="box"> box </div>
+
+    .box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 15px solid black;
+    }
+    ```
+    - 요소의 총 세로 크기는 150px
+    - `content의 height 100px + padding 상하(10px*2) + border 상하(15px*2) = 150px`
+
+    ```
+    <div class="parent">
+    <div class="child">
+        child
+    </div>
+    </div>
+    
+    .parent {
+    width: 200px;
+    border: 10px solid black;
+    }
+    .child {
+    height: 50%;
+    background: red;
+    }
+    ```
+    - 요소의 총 세로 크기는 `height:auto`일 때와 같음
+        - 부모 요소가 명시적으로 height 값이 있어야 하기 때문
 
 ---
