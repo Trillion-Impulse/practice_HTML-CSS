@@ -869,7 +869,7 @@ span {
 
     - 요소의 총 가로 크기는 160px
     - `content의 width 100px + padding 좌우(20px*2) + border 좌우(10px*2) = 160px`
-    
+
     <br>
     
     ```
@@ -892,6 +892,9 @@ span {
 
     - 요소의 총 가로 크기는 210px
     - `content의 width 150px + padding 좌우(20px*2) + border 좌우(10px*2) = 210px`
+
+<br>
+
 - 부모가 인라인 레벨 요소일 때, 자식(블록 요소)이 width 값에 %를 가지면, 가장 가까운 블록 레벨인 조상의 width를 기준으로 계산
 - 만일 최상단까지 블록 레벨 요소가 없으면 body를 기준으로 계산
 
@@ -922,6 +925,8 @@ span {
     ```
     - 요소의 총 세로 크기는 150px
     - `content의 height 100px + padding 상하(10px*2) + border 상하(15px*2) = 150px`
+
+    <br>
 
     ```
     <div class="parent">
