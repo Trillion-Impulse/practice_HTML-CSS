@@ -843,3 +843,52 @@ span {
     - margin, padding 모두 상하좌우에 관계없이 요소의 width 값을 기준으로 값이 결정 됨
 
 ---
+
+### width
+
+- 요소의 너비를 설정
+- width는 요소의 콘텐츠 영역에만 적용
+- width 속성은 인라인 레벨 요소를 제외한 모든 요소에 적용
+- 기본값: 0
+- 속성값
+    - auto: 브라우저에 의해 계산된 값이 적용, 요소의 레벨 기본 특성에 따라 다르게 동작
+    - px, em 등: 고정값으로 지정
+    - %: 부모 요소의 width에 상대적인 크기를 지정
+- width는 content 영역의 너비를 제어할 때 사용하는데, 이때 auto가 아닌 특정한 값을 지정하여 사용하면
+    그 크기는 boxmodel 영역에서 margin 영역을 제외한 모든 영역에 대해 영향을 받음
+- 예
+    ```
+    <div class="box"> box </div>
+
+    .box {
+    width: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    }
+    ```
+    - 요소의 총 가로 크기는 160px
+    - `content의 width 100px + padding 좌우(20px*2) + border 좌우(10px*2) = 160px`
+    <br>
+    ```
+    <div class="parent">
+    <div class="child">
+        child
+    </div>
+    </div>
+    
+    .parent {
+    width: 300px;
+    border: 20px solid red;
+    }
+    .child {
+    width: 50%;
+    padding: 20px;
+    border: 10px solid black;
+    }
+    ```
+    - 요소의 총 가로 크기는 210px
+    - `content의 width 150px + padding 좌우(20px*2) + border 좌우(10px*2) = 210px`
+- 부모가 인라인 레벨 요소일 때, 자식(블록 요소)이 width 값에 %를 가지면, 가장 가까운 블록 레벨인 조상의 width를 기준으로 계산
+- 만일 최상단까지 블록 레벨 요소가 없으면 body를 기준으로 계산
+
+---
