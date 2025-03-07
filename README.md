@@ -67,3 +67,4 @@
         9. margin
         10. padding과 margin 비교
         11. width
+        12. height
