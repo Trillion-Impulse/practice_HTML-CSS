@@ -993,3 +993,31 @@ span {
                 _sans: 프랑스어로 `없음`을 뜻함_
 
 ---
+
+### line-height
+
+- 텍스트의 행 간격을 조정하는 속성
+- 텍스트가 포함된 요소의 각 행(라인) 간의 수직적인 간격을 설정
+- line-box라고도 하며, 타이포그래피의 구조에서 `em 박스 + 상/하단의 여백`
+- 기본값: normal
+- 축약: `line-height: normal | number | length | initial | inherit`
+    - `normal`: 기본값
+        - 브라우저의 기본 스타일에 따라 자동으로 설정
+        - 글꼴의 크기에 비례한 값을 가짐
+        - 보통 텍스트의 글꼴 크기의 약 1.2배
+    - `number`: font-size를 기준으로 설정한 숫자만큼 배율로 적용
+    - `length`: px, em 등 고정값으로 지정
+    - `%`: font-size를 기준으로 설정한 퍼센트만큼 배율로 적용
+    - `number`와 `%`의 차이
+        - `number`: 부모 요소의 숫자 값이 그대로 상속
+        - `%`: 부모 요소에서 %에 의해 이미 계산된 px값이 상속
+        - 예
+            ```
+            body { font-size: 20px; line-height: 2; }    /* line-height = 40px; */
+            p { font-size: 10px; }                       /* line-height = 20px; */
+
+            body { font-size: 20px; line-height: 200%; }    /* line-height = 40px; */
+            p { font-size: 10px; }                          /* line-height = 40px; */
+            ```
+
+---
