@@ -69,3 +69,4 @@
         11. width
         12. height
         13. typography
+        14. font-family
