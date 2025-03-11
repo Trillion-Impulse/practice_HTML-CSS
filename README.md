@@ -1092,3 +1092,17 @@ span {
             - `font-style oblique 10deg`: 10도 기울임
 
 ---
+
+### font-variant
+
+- 텍스트의 서체 변형을 지정하는 속성
+- 이 속성을 이용해 소문자를 작은 대문자로 변환 가능
+- 변환된 대문자는 실제 대문자 사이즈 보다 작은 사이즈
+- 대소문자 변환이므로 한글에는 적용되지 않음
+- 기본 값: normal
+- 축약: `font-variant: normal | small-caps | initial | inherit`
+- 속성 값
+    - `normal`: 기본 값, 어떤 변형도 적용하지 않음
+    - `small-caps`: 소문자를 소문자 크기의 대문자로 변형
+
+---
