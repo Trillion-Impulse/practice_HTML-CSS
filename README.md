@@ -1074,3 +1074,21 @@ span {
 - 디바이스별로 다르게 표현될 수도 있음
 
 ---
+
+### font-style
+
+- 텍스트의 스타일을 지정하는 속성
+- 기본 값: normal
+- 축약: `font-style: normal | italic | oblique | initial | inherit`
+- 속성 값
+    - `normal`: 기본 값
+    - `italic`: 글자 기울기가 오른쪽으로 기울어짐
+    - `oblique`
+        - 비스듬하게 기울인 스타일
+        - 이탤릭체와 비슷하지만, 폰트의 원래 형태에 따라 다르게 보임
+        - 기울기 지정 가능
+            - -90도 ~ 90도
+            - 기본값 14도
+            - `font-style oblique 10deg`: 10도 기울임
+
+---
