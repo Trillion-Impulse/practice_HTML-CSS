@@ -1021,3 +1021,37 @@ span {
             ```
 
 ---
+
+### font-size
+
+- 텍스트의 크기를 지정하는 속성
+- 기본 값: medium
+- 축약: `font-size: keyword | length | initial | inherit`
+- 속성 값
+    - `keyword`
+        - `absolute size`
+            - 기본 값인 medium에 대한 상대적인 크기
+            - 브라우저마다 사이즈가 다르게 정의
+            - `xx-small`, `x-small`, `small`
+            - `medium`: 기본 값
+            - `large`, `x-large`, `xx-large`
+        - `relative size`
+            - 부모 요소의 fon-size에 대해 상대적
+            - `smaller`
+                - 부모 요소의 크기보다 작은 크기
+                - 상대적인 크기를 줄이는 데 유용
+                - 0.8배
+            - `larger`
+                - 부모 요소의 크기보다 큰 크기
+                - 상대적인 크기를 늘이는 데 유용
+                - 1.2배
+    - `length`: px, em 등 고정값으로 지정
+        - `px`: 화면의 해상도와 관계없이 고정된 크기
+        - `em`: 부모 요소의 font-size에 em 값을 곱한 크기
+        - `rem`: 루트의 font-size에 rem 값을 곱한 크기
+    - `%`: 부모 요소의 font-size를 기준으로 설정한 퍼센트만큼 적용
+    - `viewport unit`: 뷰포트를 기준으로 font-size를 지정
+        - `vw`: 화면 너비(width)의 백분율
+        - `vh`: 화면 높이(height)의 백분율
+
+---
