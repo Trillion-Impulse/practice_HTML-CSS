@@ -71,3 +71,4 @@
         13. typography
         14. font-family
         15. line-height
+        16. font-size
