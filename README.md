@@ -1055,3 +1055,22 @@ span {
         - `vh`: 화면 높이(height)의 백분율
 
 ---
+
+### font-weight
+
+- 텍스트의 굵기를 지정하는 속성
+- 기본 값: normal
+- 축약: `font-weight: normal | bold | bolder | lighter | number | initial | inherit`
+- 속성 값:
+    - number
+        - 100 200 300 400 500 600 700 800 900
+        - 클수록 더 두껍게 표현
+    - `normal`: 기본 값 (400)
+    - `bold`: 굵게 (700)
+    - `bolder`: 부모 요소 보다 두껍게 표현
+    - `lighter`: 부모 요소 보다 얇게 표현
+- 숫자를 이용한 font-weight는 폰트 자체에서 지원을 해야 표현 가능
+- `normal`과 `bold`만 지원하는 폰트의 경우 100~500: `normal`, 600~900: `bold`
+- 디바이스별로 다르게 표현될 수도 있음
+
+---
