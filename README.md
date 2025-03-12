@@ -75,3 +75,4 @@
         17. font-weight
         18. font-style
         19. font-variant
+        20. font
