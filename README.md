@@ -1106,3 +1106,13 @@ span {
     - `small-caps`: 소문자를 소문자 크기의 대문자로 변형
 
 ---
+
+### font
+
+- 여러 가지 폰트 관련 속성의 축약형 속성
+- 속성마다 선언 순서를 지켜야 함
+- `font: font-style font-variant font-weight font-size/line-height font-family | initial | inherit`
+- `font` 속성에서는 `font-size`와 `font-family`를 반드시 지정해야 함
+- `line-height`는 `/`뒤에 작성, 선택적으로 지정 가능
+
+---
