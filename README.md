@@ -1116,3 +1116,37 @@ span {
 - `line-height`는 `/`뒤에 작성, 선택적으로 지정 가능
 
 ---
+
+### webfont
+
+- 웹페이지에서 글꼴을 지정할 때 사용되는 기술
+- 서버나 클라이언트에 저장된 글꼴을 웹페이지에 적용할 수 있게 함
+- 글꼴을 직접 웹페이지에 포함시키거나 웹에서 다운로드하여 사용하는 방식
+- 사용자의 컴퓨터에 특정 글꼴이 없더라도 웹 페이지에서 해당 글꼴을 제대로 표시 가능
+
+#### @font-face
+
+- 웹페이지에서 사용할 폰트를 외부 파일로부터 사용자의 로컬 환경으로 다운로드하여 사용
+- 기본 값: 없음
+- 속성 값
+    - `font-family`: 글꼴의 이름을 지정 (필수)
+    - `src`: 다운로드 받을 글꼴의 경로(url) (필수)
+    - `font-style`: 글꼴의 스타일 지정
+        - 기본 값: normal
+    - `font-weight`: 글꼴의 굵기 지정
+        - 기본 값: normal
+- 예
+    ```
+    @font-face {
+    font-family: webNanumGothic; /* 사용자 지정 웹 폰트명 */
+    src: url(NanumGothic.eot); /* 적용 될 웹 폰트의 경로 */
+    font-weight: bold; /* 필요에 따라 지정 */
+    font-style: italic; /* 필요에 따라 지정 */
+    }
+
+    body {
+        font-family: webNanumGothic;
+    }
+    ```
+
+---
