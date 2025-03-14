@@ -1150,3 +1150,31 @@ span {
     ```
 
 ---
+
+### vertical-align
+
+- 인라인 또는 인라인-블록 요소를 기준으로 다른 요소들과의 수직 정렬을 제어
+- 속성이 적용되는 요소들
+    - inline 요소: `<span>`, `<a>`, `<img>` 등
+    - inline-block 요소: `<button>`, `<input>` 등
+- 기본 값: baseline
+- 축약: `vertical-align: keyword | length | percent | initial | inherit`
+- 속성 값
+    - keyword
+        - baseline(기본 값): 요소의 텍스트 기준선(baseline)을 기준으로 정렬
+        - top: 요소의 상단을 부모 요소의 상단에 맞춤
+        - middle: 요소의 수직 중앙을 부모 요소의 수직 중앙에 맞춤
+        - bottom: 요소의 하단을 부모 요소의 하단에 맞춤
+        - super: 텍스트의 상위 첨자처럼 배치
+        - sub: 텍스트의 하위 첨자처럼 배치
+    - length
+        - baseline을 기준으로 이동
+        - 요소를 지정한 길이만큼 올리거나 내림
+        - 음수 값 사용 가능
+        - 양수 값은 요소를 위로 이동
+        - 음수 값은 요소를 아래로 이동
+    - %
+        - line-height를 기준으로 내에서 이동
+        - 음수 값 사용 가능
+
+---
