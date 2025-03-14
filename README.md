@@ -77,3 +77,4 @@
         19. font-variant
         20. font
         21. webfont
+        22. vertical-align
