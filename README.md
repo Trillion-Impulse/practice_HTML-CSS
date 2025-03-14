@@ -1194,3 +1194,14 @@ span {
     - end: 텍스트 정렬을 문서의 끝 부분에 맞춤
 
 ---
+
+### text-indent
+
+- 블록 요소 내의 첫 번째 줄 텍스트를 들여쓰기
+- 기본 값: 0
+- 축약: `text-indent: length | initial | inherit`
+- 속성 값
+    - length: px, em 등 고정 값으로 지정, 음수로 내어쓰기 가능
+    - %: 부모 요소의 width를 기준으로 지정
+
+---
