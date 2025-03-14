@@ -1178,3 +1178,19 @@ span {
         - 음수 값 사용 가능
 
 ---
+
+### text-align
+
+- 요소 내의 텍스트나 인라인 요소들을 수평 방향으로 어떻게 정렬할지 지정
+- 기본 값: left (Right to Left 언어일 경우는 right)
+- 축약: `text-align: left | right | center | justify | initial | inherit`
+- 속성 값
+    - left: 텍스트를 왼쪽에 정렬
+    - right: 텍스트를 오른쪽에 정렬
+    - center: 텍스트를 수평 중앙에 정렬
+    - justify: 텍스트를 양쪽 끝에 맞게 정렬
+        - 마지막 라인은 정렬하지 않음
+    - start: 텍스트 정렬을 문서의 시작 부분에 맞춤
+    - end: 텍스트 정렬을 문서의 끝 부분에 맞춤
+
+---
