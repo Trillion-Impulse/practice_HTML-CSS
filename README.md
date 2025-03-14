@@ -79,3 +79,4 @@
         21. webfont
         22. vertical-align
         23. text-align
+        24. text-indent
