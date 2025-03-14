@@ -78,3 +78,4 @@
         20. font
         21. webfont
         22. vertical-align
+        23. text-align
