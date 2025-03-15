@@ -1205,3 +1205,27 @@ span {
     - %: 부모 요소의 width를 기준으로 지정
 
 ---
+
+### text-decoration
+
+- 텍스트의 장식 스타일을 설정하는 속성
+- 주로 밑줄, 취소선, 강조선 등을 추가하는 데 사용
+- 기본 값: none currentColor solid
+- 측약: `text-decoration: text-decoration-line text-decoration-color text-decoration-style | initial | inherit`
+- 속성 값
+    - `text-decoration-line`: 텍스트 장식의 종류를 지정
+        - none: 텍스트 장식을 생성하지 않음 (기본 값)
+        - underline: 텍스트에 밑줄을 추가
+        - overline: 텍스트에 윗줄을 추가
+        - line-through: 텍스트에 중간을 지나는 취소선을 추가
+    - `text-decoration-color`: 텍스트 장식의 색상을 설정
+        - 기본 값: currentColor
+        - 색생 값을 사용하여 원하는 색상을 지정 가능
+    - `text-decoration-style`: 텍스트 장식의 스타일을 설정
+        - solid: 한줄 (기본 값)
+        - double: 이중선
+        - dotted: 점선
+        - dashed: 파선
+        - wavy: 물결
+
+---
