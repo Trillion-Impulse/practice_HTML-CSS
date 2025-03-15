@@ -80,3 +80,4 @@
         22. vertical-align
         23. text-align
         24. text-indent
+        25. text-decoration
