@@ -83,3 +83,4 @@
         25. text-decoration
         26. 그밖에 텍스트의 레이아웃과 줄바꿈, 공백처리
         27. display
+        28. visibility
