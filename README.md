@@ -1324,3 +1324,30 @@ span {
     - 그밖에: flex, grid, inline-flex, inline-grid, list-item 등
 
 ---
+
+### visibility
+
+- 요소의 화면 표시 여부를 지정하는 속성
+- 요소가 화면에 표시되는지 여부를 결정, 요소가 여전히 공간을 차지하는지 여부를 구분할 수 있는 방법을 제공
+- 축약: `visibility: visible | hidden | collapse | initial | inherit`
+- 속성 값
+    - visible: 화면에 표시 (기본 값)
+    - hidden
+        - 화면에 표시되지 않음
+        - 공간은 차지함
+    - collapse
+        - 셀 간의 경계를 무시하고 숨김
+        - 테이블 관련 요소에 적용 가능
+            - 행(tr), 열(td), 전체 테이블을 숨기는데 사용
+            - 다른 요소가 그 공간을 차지하지 않도록 함
+- `display: none`과의 차이점
+    - `display: none`
+        - 요소가 렌더링 되지 않음
+        - 레이아웃에 공간이 없음
+        - DOM에 존재하지 않음
+    - `visibility: hidden`
+        - 요소가 보이지는 않지만 렌더링 됨
+        - 레이아웃에 공간을 가지고 있음
+        - DOM에 존재
+
+---
