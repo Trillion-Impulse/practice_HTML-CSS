@@ -84,3 +84,12 @@
         26. 그밖에 텍스트의 레이아웃과 줄바꿈, 공백처리
         27. display
         28. visibility
+3. 유용한 사이트
+    1. HTML 요소 배치 방식
+        - Flexbox
+            <br>🐸[Flexbox Froggy](https://cssgridgarden.com/#ko)🐸
+        - Grid
+            <br>🥕[Grid Garden](https://cssgridgarden.com/#ko)🥕
+    2. CSS UI 공유 플랫폼
+        - UIverse
+            <br>🎨[UIverse](https://uiverse.io/)🎨
