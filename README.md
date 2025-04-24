@@ -87,7 +87,7 @@
 3. 유용한 사이트
     1. HTML 요소 배치 방식
         - Flexbox
-            <br>🐸[Flexbox Froggy](https://cssgridgarden.com/#ko)🐸
+            <br>🐸[Flexbox Froggy](https://flexboxfroggy.com/#ko)🐸
         - Grid
             <br>🥕[Grid Garden](https://cssgridgarden.com/#ko)🥕
     2. CSS UI 공유 플랫폼
