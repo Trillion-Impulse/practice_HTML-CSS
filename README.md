@@ -95,4 +95,4 @@
             <br>🎨[UIverse](https://uiverse.io/)🎨
     3. CSS 애니메이션 생성 웹 서비스
         - Animista
-            <br>[Animista](https://animista.net/)
+            <br>🎬[Animista](https://animista.net/)🎬
